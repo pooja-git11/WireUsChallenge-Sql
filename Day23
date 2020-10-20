@@ -1,0 +1,23 @@
+1)Which of the following statements is not supported by SQL:
+a. DDL
+b. DAL
+c. DCL
+d. DML
+
+ans. DAL
+
+2)Which of the following constraints does not enforce uniqueness?
+a.UNIQUE
+b PRIMARY KEY
+c.FOREIGN KEY
+d.None of the mentioned
+
+ans. FOREIGN KEY
+
+3) Point out the wrong statement
+a. Table constraints must be used when more than one column must be included in a constraint
+b. A column constarint is specified as part of a column definition and applies only to that column
+c. A table constraint is declared independently from a column definition and can apply to more than one colun in a table.
+d. Primay key allow for NULL as one of the unique values
+
+ans. d

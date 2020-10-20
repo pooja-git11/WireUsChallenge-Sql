@@ -1,0 +1,50 @@
+create table table1(
+    id int,
+    firstName varchar(20),
+    lastName varchar(20),
+    salary int,
+    joiningDate varchar(50),
+    department varchar(20)
+);
+
+create table table2(
+    id int,
+    firstName varchar(20),
+    lastName varchar(20),
+    salary int,
+    joiningDate varchar(50),
+    department varchar(20)
+);
+
+
+insert into table1 values(001, 'Monika','Arora', 100000, '2014-02-20 09:00:00', 'HR');
+insert into table1 values(002, 'Niharika', 'Verma', 900000, '2014-06-11 09:00:00', 'Admin');
+insert into table1 values(003, 'Vishal', 'Singhal', 300000, '2014-02-20 09:00:00', 'HR');
+insert into table1 values(004, 'Amitabh', 'Singh',5100000, '2014-02-20 09:00:00', 'Admin');
+insert into table1 values(005, 'Vivek', 'Bhati', 500000, '2014-06-11 09:00:00', 'Admin');
+insert into table1 values(006, 'Vipul', 'Diwan', 2000000, '2014-06-11 09:00:00', 'Account');
+insert into table1 values(007, 'Satish', 'Kumar', 75000, '2014-01-20 09:00:00', 'Account');
+insert into table1 values(008, 'Geetika','Chauhan', 90000, '2014-04-11 09:00:00', 'Admin');
+
+
+
+insert into table1 values(002, 'Monika','Arora', 100000, '2014-06-20 09:00:00', 'HR');
+insert into table1 values(004, 'Nikita', 'Verma', 900000, '2014-07-11 09:00:00', 'Admin');
+insert into table1 values(006, 'Vidhushi', 'Singhal', 500000, '2014-01-20 09:00:00', 'HR');
+insert into table1 values(008, 'Amitabh', 'Singh',5100000, '2014-02-20 09:00:00', 'Admin');
+insert into table1 values(010, 'Vivek', 'Bhati', 700000, '2014-06-12 09:00:00', 'Admin');
+insert into table1 values(006, 'Vipul', 'Diwan', 2000000, '2014-06-11 09:00:00', 'Account');
+insert into table1 values(014, 'Satish', 'Kumar', 85000, '2014-01-11 09:00:00', 'Account');
+insert into table1 values(016, 'Geetika','Chauhan', 10000, '2014-04-13 09:00:00', 'Admin');
+
+
+select id ,  firstName, lastName , salary , joiningDate , department 
+from table1
+left join table2
+on table1.id = table2.id
+intersect
+select  id ,  firstName, lastName , salary , joiningDate , department 
+from table1
+right join table2
+on table1.id = table2.id;
+
