@@ -1,0 +1,17 @@
+result :
+ 
+query: select count(*) frin book
+output: 5
+
+query: select max(price) from book where quantity >= 15
+output: max(price)
+	750
+
+output of 3rd query:
+book_name     author_name 
+FAST COOK     LATA KAPOOR
+MY FIRST C++  BRIAN & BROOKE
+
+output of 4th qurey:
+count(distinct publisher)
+2
