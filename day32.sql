@@ -1,0 +1,19 @@
+ouput of query 1: 
+FIRSTNAME  SALARY
+MAITHILI   50000
+ROBERT     45000		
+HENRY      40000
+
+output of query 2
+COUNT(DISTINCT DESIGNATION)
+3
+
+output of query3
+DESIGNATION SUM(SALARY)
+MANAGER     214500
+CLERK       13500
+
+
+output of query 4
+SUM(BENEFITS)
+32000
