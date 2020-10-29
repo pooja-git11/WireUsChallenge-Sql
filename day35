@@ -1,0 +1,14 @@
+Q. what are the advantages of DBMS?
+1 Data is stored in structured way and hence redundancy is controlled
+2. Validates the data entered and provide restrictions for unauthorized access
+3 It has single user interface
+4 More htan one is correct
+
+ans 1
+
+Q. Which of the following is not a data model available for database systems.
+1 Relational Model
+2. Network model
+
+ans both are data model 
+
