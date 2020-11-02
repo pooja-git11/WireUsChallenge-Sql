@@ -1,0 +1,15 @@
+Q.What is a composite key?
+1.It is a key that is defined as the primary key in another table
+2.It is a key that uniquely identifies a record in a database
+3 It is an optional key and allows null values
+4 It is a primary key that consist of more than one field that uniquely idenitfies a record in a database.
+
+Ans. 2
+
+Q. Which of the following is correct?
+1 The UNION command is used to combine result sets from more than one query
+2 Subqueries have better performance comparedto JOIN queries
+3 Once a table has been created in MySQL , its structure cannot be changed
+4 MySQL does not support auto generating number
+
+ans.1
